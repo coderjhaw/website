@@ -1,0 +1,112 @@
+.white-font {
+    color: white;
+}
+
+.requestNow{
+    background: black;
+    height: 42px;
+    width: 130px;
+    font-weight: bold;
+    margin-right: 10px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.requestNow:hover {
+    opacity: 0.8;
+}
+
+.requestNow:active {
+    opacity: 0.5;
+}
+
+.addToCart {
+    background: rgba(236, 213, 37, 0.899);
+    height: 38px;
+    border: none;
+    width: 180px;
+    border-radius: 18px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.signup {
+    background: rgb(68, 165, 68);
+    height: 38px;
+    border: none;
+    width: 95px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.getStarted {
+    background: rgb(107, 19, 162);
+    height: 38px;
+    width: 114px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.download {
+    background-color: white;
+    height: 38px;
+    width: 114px;
+    color: rgb(134, 132, 132);
+    font-size: 16px;
+    font-weight: bold;
+    border-style: solid gray;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.apply {
+    background: rgb(29, 75, 149);
+    height: 50px;
+    width: 250px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: box-shadow 0.2s;
+}
+
+.apply:hover {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+.apply:active {
+    opacity: 0.7;
+}
+
+.save {
+    background-color: white;
+    height: 50px;
+    width: 110px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(18, 59, 155);
+    color:rgb(18, 59, 155);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: larger;
+    transition: background-color 0.30s, color 0.30s;
+}
+
+.save:hover {
+    background-color: rgb(18, 59, 155);
+    color: white;
+}
+
+.save:active {
+    opacity: 0.6;
+}
