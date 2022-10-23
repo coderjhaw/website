@@ -1,0 +1,143 @@
+.name {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.email {
+  margin-bottom: 50px;
+}
+
+.customer-service {
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+  margin-bottom: 50px;
+}
+.center {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.search-bar {
+  width: 500px;
+  height: 30px;
+  border-radius: 250px;
+  padding-left: 18px;
+  font-family: Roboto;
+  font-weight: bold;
+  border: none;
+  box-shadow: 1px 1px 10px gray;
+  margin-top: 10px;
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+
+.ex-8d {
+  width: 270px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.email-8d {
+  display: block;
+  width: 255px;
+  height: 22px;
+  border-radius: 5px;
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.firstname, .lastname {
+  margin-bottom: 10px;
+  width: 120px;
+  height: 22px;
+  border-radius: 6px;
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+  padding: 5px;
+}
+
+.firstname,.lastname,.email-8d {
+  font-family: Roboto;
+  
+}
+.sign-up {
+  width: 267px;
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(17, 105, 246);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: opacity 0.5s;
+}
+
+.sign-up:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.sign-up:active {
+  opacity: 0.5;
+}
+
+
+.uber-p {
+  font-family: Arial;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.input-pickup, .input-destination {
+  background-color: rgb(244, 241, 241);
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 11px;
+  width: 300px;
+}
+
+.input-destination {
+  display: block;
+  margin-top: 7px;
+  margin-bottom: 25px;
+}
+
+.btn-request {
+  color: white;
+  background-color: black;
+  padding-top: 13px;
+  padding-bottom: 13px; 
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Roboto;
+  border: none;
+  margin-right: 8px;
+}
+
+.btn-sched {
+  background-color: rgb(230, 228, 228);
+  border: none;
+  padding-top: 13px;
+  padding-bottom: 13px; 
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.input-destination:focus, .input-pickup:focus {
+  outline: none;
+}
