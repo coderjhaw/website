@@ -1,0 +1,46 @@
+.red-square {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+}
+
+.green-circle {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.satisfied {
+  border: solid;
+  border-width: 1px;
+  width: 300px;
+  font-family: Roboto;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+.satisfied button {
+  font-weight: bold;
+}
+
+.install-youtube {
+  background-color: rgb(23, 21, 21);
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  width: 350px;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  font-family: Roboto;
+}
+
+.section-description {
+  color: gray;
+  font-family: Roboto;
+  font-size: 15px;
+}
